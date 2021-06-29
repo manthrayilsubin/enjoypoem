@@ -13,7 +13,7 @@
   <div class="container">
   <div class="row">
     <div class="col">
-    <b>Start Typing your Poem Here:</b><br>
+    <b>Enter your Poem Here:</b><br>
     </div>
     </div>
   <div class="row">
