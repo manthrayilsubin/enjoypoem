@@ -26,7 +26,7 @@ body{
 .line-1{
     position: relative;
     top: 50%;  
-    width: 30em;
+    width: 35em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
     font-size: 180%;
@@ -48,7 +48,7 @@ body{
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 25em;}
+  to{width: 30em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
