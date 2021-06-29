@@ -26,7 +26,7 @@ body{
 .line-1{
     position: relative;
     top: 50%;  
-    width: 30em;
+    width: 35em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
     font-size: 180%;
@@ -35,7 +35,7 @@ body{
     overflow: hidden;
     transform: translateY(-50%);    
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   #typemsg {
     visibility: hidden;
     display: none;
@@ -48,7 +48,7 @@ body{
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 25em;}
+  to{width: 30em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
@@ -62,7 +62,7 @@ body{
 </head>
 <body>
  <div class="container">
-  <div class="row">
+  <div class="row" style="background-image: url('https://enjoypoem.subinbabu.repl.co/img/lightanddark.png')">
   <img src="https://play-lh.googleusercontent.com/tJIjI-Gp8BnopJYWYpbYTqqnjku46bcx5eN1iV61VpfsF3cM2pAYqC9PF4um5f1d15U" style="width: 17%;"</img>
   </div>
   <br><br>
@@ -71,14 +71,20 @@ body{
   </div>
   <br><br>
   <div class="row">
+  <div class="col">
+<p style="font-size: x-large;">Sign In</p>
+</div>
+<div class="col">
+<p style="font-size: x-large;">Sign Up</p>
+</div>
+</div>
+  <br><br>
+  <div class="row">
 <p class="line-1 anim-typewriter" id="typemsg">വരുംകാല തലമുറയ്ക്ക് ഒരു കൈത്തിരി തെളിക്കാം.</p>
 <p class="line-1 anim-typewriter" id="typemsg">വാക്കുകൾ  ഹൃദയങ്ങളിൽ തറയ്ക്കട്ടെ .</p>
 
 </div>
-<br><br>
-  <div class="row">
-<p >Click To Enter</p>
-</div>
+
 </div>
 
 </body>
